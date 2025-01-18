@@ -1,0 +1,25 @@
+# File /etc/systemd/system/elasticsearch.service
+#
+# Start/status/stop
+#   sudo systemctl start elasticsearch.service
+#   sudo systemctl status elasticsearch.service
+#   sudo systemctl stop elasticsearch.service
+#
+# Start when computer boots:
+#   sudo systemctl enable elasticsearch.service
+#
+[Unit]
+Description=ElasticSearch Service
+After=network.target
+
+[Service]
+Environment=JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64/
+ExecStart=/home/alarmuser/elasticsearch-7.17.5/bin/elasticsearch
+PIDFile=/home/alarmuser/elasticsearch-7.17.5/run/elasticsearch.pid
+User=alarmuser
+Group=alarmuser
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
