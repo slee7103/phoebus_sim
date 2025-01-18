@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="Accelerator">
+  <component name="Alarm:Analog">
+	<pv name="ctrlslab:Temp">
+		<enabled>true</enabled>
+	</pv>
+	<pv name="ctrlslab:A_Alarm">
+		<enabled>true</enabled>
+	</pv>
+  </component>
+  <component name="Alarm:Digital">
+	<pv name="ctrlslab:Control">
+		<enabled>true</enabled>
+	</pv>
+	<pv name="ctrlslab:D_Alarm">
+		<enabled>true</enabled>
+	</pv>
+  </component>
+</config>

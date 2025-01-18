@@ -1,1 +1,4 @@
 elasticsearch-7.17.5.tar.gz filter=lfs diff=lfs merge=lfs -text
+services/alarm-server/target/lib/rocksdbjni-7.9.2.jar filter=lfs diff=lfs merge=lfs -text
+services/alarm-logger/target/service-alarm-logger-4.7.4-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
+services/alarm-config-logger/target/service-alarm-config-logger-4.7.4-SNAPSHOT.jar filter=lfs diff=lfs merge=lfs -text
