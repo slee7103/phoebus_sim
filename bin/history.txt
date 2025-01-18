@@ -1,0 +1,1000 @@
+ 1007  vi RELEASE 
+ 1008  cd ../
+ 1009  ls
+ 1010  cd alarmperfApp/
+ 1011  ls
+ 1012  cd src/
+ 1013  ls
+ 1014  vi Makefile 
+ 1015  ls
+ 1016  cd ..//
+ 1017  ls
+ 1018  cd ../
+ 1019  ls
+ 1020  cd iocBoot/
+ 1021  ls
+ 1022  cd iocAR01-alarmperf/
+ 1023  ls
+ 1024  ./st.cmd 
+ 1025  cd ../../
+ 1026  l
+ 1027  ls
+ 1028  cd modules/
+ 1029  ls
+ 1030  cd pvxs
+ 1031  ls
+ 1032  cd lib/
+ 1033  ls
+ 1034  cd linux-x86_64/
+ 1035  ls
+ 1036  cd
+ 1037  ls
+ 1038  cd epics
+ 1039  ls
+ 1040  cd 7.0.8/
+ 1041  ls
+ 1042  cd base/
+ 1043  ls
+ 1044  cd modules/
+ 1045  ls
+ 1046  cd ca/
+ 1047  ls
+ 1048  cd src/
+ 1049  ls
+ 1050  cd ../../
+ 1051  ls
+ 1052  cd
+ 1053  ls
+ 1054  cd epics
+ 1055  ls
+ 1056  cd 7.0.8/
+ 1057  ls
+ 1058  cd siteApps/
+ 1059  ls
+ 1060  cd TestIOC/l
+ 1061  ls
+ 1062  cd TestIOC/
+ 1063  ls
+ 1064  make install
+ 1065  ls
+ 1066  cd iocBoot/io
+ 1067  ls
+ 1068  cd iocBoot/
+ 1069  ls
+ 1070  cd exioc/
+ 1071  ls
+ 1072  chmod +x st.cmd 
+ 1073  ls
+ 1074  vi st.cmd 
+ 1075  ls
+ 1076  ./st.cmd 
+ 1077  cd
+ 1078  cd epics/7.0.8/siteApps/
+ 1079  ls
+ 1080  cd TestIOC/
+ 1081  ls
+ 1082  cd ../../
+ 1083  ls
+ 1084  . setEpicsEnv.sh 
+ 1085  cd siteApps/
+ 1086  ls
+ 1087  cd TestIOC/
+ 1088  ls
+ 1089  cd iocBoot/io
+ 1090  cd iocBoot/
+ 1091  ls
+ 1092  cd exioc/
+ 1093  ls
+ 1094  ./st.cmd 
+ 1095  ls
+ 1096  cd ../../
+ 1097  ls
+ 1098  grep -ri qsrv *
+ 1099  grep -ri EPICS_QSRV_MAJOR_VERSION *
+ 1100  ls
+ 1101  cd configure/
+ 1102  ls
+ 1103  grep -ri EPICS_QSRV_MAJOR_VERSION *
+ 1104  vi RELEASE 
+ 1105  make
+ 1106  cd ../
+ 1107  ls
+ 1108  make clean
+ 1109  make install
+ 1110  ls
+ 1111  cd iocBoot/exioc/
+ 1112  ls
+ 1113  ./st.cmd 
+ 1114  ls
+ 1115  cd ../..//
+ 1116  ls
+ 1117  cd exiocApp/src/
+ 1118  ls
+ 1119  vi Makefile 
+ 1120  ls
+ 1121  cd ../../
+ 1122  ls
+ 1123  cd configure/
+ 1124  ls
+ 1125  vi RELEASE 
+ 1126  make
+ 1127  make clean
+ 1128  make
+ 1129  cd ../
+ 1130  ls
+ 1131  make clcean
+ 1132  make clean
+ 1133  make install
+ 1134  ls
+ 1135  cd iocBoot/exioc/
+ 1136  ls
+ 1137  ./st.cmd 
+ 1138  ls
+ 1139  cd ../../
+ 1140  ls
+ 1141  cd exiocApp/src/
+ 1142  ls
+ 1143  vi Makefile 
+ 1144  ls
+ 1145  rm @
+ 1146  ls
+ 1147  make
+ 1148  make install
+ 1149  ls
+ 1150  cd ../../
+ 1151  ls
+ 1152  cd iocBoot/exioc/
+ 1153  ls
+ 1154  ./st.cmd 
+ 1155  ls
+ 1156  cd ../../
+ 1157  ls
+ 1158  cd exiocApp/src/
+ 1159  ls
+ 1160  vi Makefile 
+ 1161  cd ../..
+ 1162  ls
+ 1163  cd configure/
+ 1164  ls
+ 1165  vi RELEASE 
+ 1166  make
+ 1167  cd ../
+ 1168  ls
+ 1169  make clean
+ 1170  make install
+ 1171  cd iocBoot/exioc/
+ 1172  ls
+ 1173  ./st.cmd 
+ 1174  ls
+ 1175  cd ../../
+ 1176  ls
+ 1177  cd exiocApp/src/
+ 1178  ls
+ 1179  vi Makefile 
+ 1180  make
+ 1181  make install
+ 1182  cd ../
+ 1183  ls
+ 1184  cd ../
+ 1185  ls
+ 1186  cd iocBoot/exioc/
+ 1187  ls
+ 1188  ./st.cmd 
+ 1189  ls
+ 1190  cd ../../
+ 1191  ls
+ 1192  cd exiocApp/src/
+ 1193  ls
+ 1194  vi Makefile 
+ 1195  make
+ 1196  make install
+ 1197  cd ../
+ 1198  ls
+ 1199  cd ../
+ 1200  ls
+ 1201  cd iocBoot/
+ 1202  ls
+ 1203  cd exioc/
+ 1204  ls
+ 1205  ./st.cmd 
+ 1206  ls
+ 1207  cd ../../
+ 1208  ls
+ 1209  cd exiocApp/src/
+ 1210  ls
+ 1211  vi Makefile 
+ 1212  c d../../
+ 1213  ls
+ 1214  cd ../../
+ 1215  ls
+ 1216  cd iocBoot/io
+ 1217  cd iocBoot/
+ 1218  ls
+ 1219  cd exioc/
+ 1220  ls
+ 1221  ./st.cmd 
+ 1222  ls
+ 1223  cd ../../
+ 1224  ls
+ 1225  cd exiocApp/src/
+ 1226  ls
+ 1227  vi Makefile 
+ 1228  make install
+ 1229  ls
+ 1230  cd ../Db
+ 1231  ls
+ 1232  vi circle.db 
+ 1233  vi exiocVersion.db 
+ 1234  vi user.substitutions 
+ 1235  ls
+ 1236  vi dbSubExample.db 
+ 1237  vi dbExample2.db 
+ 1238  vi dbExample1.db 
+ 1239  ls
+ 1240  vi circle.db 
+ 1241  . goto
+ 1242  ls
+ 1243  cd ecmc/
+ 1244  ls
+ 1245  grep -ri ecmcConfig *
+ 1246  ls
+ 1247  vi README.md 
+ 1248  cd GitHub/
+ 1249  ls
+ 1250  git clone https://github.com/icshwi/etherlabmaster
+ 1251  ls
+ 1252  cd etherlabmaster/
+ 1253  ls
+ 1254  make
+ 1255  vi README.md 
+ 1256  sudo apt install -y linux-headers-$(uname -r) build-essential libtool automake tree dkms
+ 1257  sudo aptitude search linux-headers
+ 1258  uname -r
+ 1259  sudo aptitude install automake
+ 1260  sudo aptitude install dkms
+ 1261  sudo aptitude update
+ 1262  sudo apt install -y linux-headers-$(uname -r) build-essential libtool automake tree dkms
+ 1263  sudo aptitude install dkms
+ 1264  uname -r
+ 1265  ls
+ 1266  cd GitHub/
+ 1267  ls
+ 1268  cd etherlabmaster/
+ 1269  ls
+ 1270  /sbin/ifconfig 
+ 1271  echo "ETHERCAT_MASTER0=enp2s0" > ethercatmaster.local
+ 1272  make showopts
+ 1273  echo "WITH_DEV_GENERIC = NO"  > configure/CONFIG_OPTIONS.local
+ 1274  echo "WITH_DEV_E1000E = YES" >> configure/CONFIG_OPTIONS.local
+ 1275  echo "ENABLE_STATIC = YES"   >> configure/CONFIG_OPTIONS.local
+ 1276  make init
+ 1277  sudo aptitude search mercurial
+ 1278  sudo aptitude install mercurial
+ 1279  make init
+ 1280  make build
+ 1281  apt-get install linux-headers-$(uname -r)
+ 1282  sudo apt-get install linux-headers-$(uname -r)
+ 1283  sudo apt update
+ 1284  sudo apt upgrade
+ 1285  sudo apt-get install linux-headers-$(uname -r)
+ 1286  uname -r
+ 1287  sudo reboot
+ 1288  uname -r
+ 1289  sudo apt-get install linux-headers-$(uname -r)
+ 1290  cd
+ 1291  ls
+ 1292  cd GitHub/
+ 1293  ls
+ 1294  cd etherlabmaster/
+ 1295  ls
+ 1296  vi README.md 
+ 1297  cd ../
+ 1298  ls
+ 1299  cd ecmc
+ 1300  ls
+ 1301  find . -name *.db
+ 1302  find . -name "*.db"
+ 1303  find . -name "*.vdb"
+ 1304  cd ecmcExampleTop/
+ 1305  ls
+ 1306  cd ecmcIocApp/Db
+ 1307  ls
+ 1308  cd ../
+ 1309  ls
+ 1310  cd src/
+ 1311  ls
+ 1312  cd ../../
+ 1313  ls
+ 1314  cd iocBoot/ecmcIoc/
+ 1315  ls
+ 1316  vi st.cmd 
+ 1317  cd ../../
+ 1318  ls
+ 1319  cd
+ 1320  cd GitHub/
+ 1321  ls
+ 1322  git clone https://github.com/icshwi/e3
+ 1323  ls
+ 1324  cd e3/
+ 1325  ls
+ 1326  echo $EPICS_BASE
+ 1327  export EPICS_BASE=$HOME/e3/epics/base
+ 1328  make init
+ 1329  ls
+ 1330  sudo make init
+ 1331  ls
+ 1332  vi README.md 
+ 1333  bash e3.bash base
+ 1334  . goto
+ 1335  ls
+ 1336  cd modules/
+ 1337  ls
+ 1338  cd pvxs
+ 1339  ls
+ 1340  grep -ri buildStruct *
+ 1341  ls
+ 1342  cd include/
+ 1343  ls
+ 1344  cd pvxs/
+ 1345  ls
+ 1346  grep -ri Value *
+ 1347  vi source.h 
+ 1348  grep -ri buildStruct *
+ 1349  cd ../../
+ 1350  grep -ri buildStruct *
+ 1351  cd ../
+ 1352  grep -ri buildStruct *
+ 1353  ls
+ 1354  cd ../
+ 1355  grep -ri buildStruct *
+ 1356  ls
+ 1357  cd modules/
+ 1358  ls
+ 1359  cd pvxs
+ 1360  ls
+ 1361  grep -ri pvxs::Value *
+ 1362  ls
+ 1363  cd include/
+ 1364  ls
+ 1365  cd pvxs/
+ 1366  ls
+ 1367  grep -ri pvxs::Value *
+ 1368  grep -ri :Value *
+ 1369  grep -ri pvxs::Value *
+ 1370  cd ../../
+ 1371  ls
+ 1372  grep -ri pvxs::Value *
+ 1373  grep -ri *Value *
+ 1374  cd ../../../
+ 1375  ls
+ 1376  cd 7.0.7/
+ 1377  ls
+ 1378  cd base/
+ 1379  ls
+ 1380  grep -ri buildStruct *
+ 1381  ls
+ 1382  . goto
+ 1383  ls
+ 1384  cd test/
+ 1385  cd ../EPICS/
+ 1386  ls
+ 1387  cd IOCs/
+ 1388  ls
+ 1389  cd rre
+ 1390  cd references/
+ 1391  ls
+ 1392  cd alarmPerfTestPVX/
+ 1393  ls
+ 1394  cd alarmperfApp/src/
+ 1395  ls
+ 1396  make
+ 1397  df
+ 1398  ls /dev
+ 1399  df
+ 1400  sudo mount /dev/sda1 /mnt/usb
+ 1401  sudo mkdir /mnt/usb
+ 1402  sudo mount /dev/sda1 /mnt/usb
+ 1403  df
+ 1404  ping 192.168.75.104
+ 1405  ping 192.168.75.103
+ 1406  ping 192.168.75.104
+ 1407  ping 192.168.75.121
+ 1408  ping 192.168.75.100
+ 1409  ping 192.168.75.101
+ 1410  ping 192.168.75.102
+ 1411  ping 192.168.75.103
+ 1412  ping 192.168.75.104
+ 1413  ping 192.168.75.105
+ 1414  ping 192.168.75.120
+ 1415  ping 192.168.75.23
+ 1416  ping 192.168.75.104
+ 1417  ping 192.168.75.103
+ 1418  ping 192.168.75.100
+ 1419  ping 192.168.75.101
+ 1420  ping 192.168.75.102
+ 1421  ping 192.168.75.103
+ 1422  ping 192.168.75.105
+ 1423  ping 192.168.75.104
+ 1424  ping 192.168.75.120
+ 1425  sudo arp -a
+ 1426  ping 192.168.75.103
+ 1427  sudo nbtstat -a
+ 1428  sudo aptitude search nmap
+ 1429  sudo aptitude install nmap
+ 1430  nmap -sn 192.168.75.0/24
+ 1431  ping 192.168.75.232
+ 1432  ssh dietpi@192.168.75.232
+ 1433  ssh dietpi@192.168.75.80
+ 1434  ssh dietpi@192.168.75.70
+ 1435  ssh dietpi@192.168.75.49
+ 1436  ssh ctrluser@192.168.75.49
+ 1437  ssh dietpi@192.168.75.80
+ 1438  ssh dietpi@192.168.75.232
+ 1439  nmap -sn 192.168.75.0/24
+ 1440  sudo nmap -sn 192.168.75.0/24
+ 1441  ping 192.168.75.49
+ 1442  ssh dietpi@192.168.75.49
+ 1443  sudo nmap -sN 192.168.75.0/24
+ 1444  sudo nmap -sn 192.168.75.0/24
+ 1445  ssh dietpi@192.168.75.49
+ 1446  ssh ctrluser@192.168.75.49
+ 1447  sudo aptitude search ipscan
+ 1448  sudo nmap -sn 192.168.75.0/24
+ 1449  exit
+ 1450  exit
+ 1451  exit
+ 1452  vi source.h 
+ 1453  vi .tmux.conf
+ 1454  exit
+ 1455  exit
+ 1456  exit
+ 1457  exit
+ 1458  exit
+ 1459  ls
+ 1460  exit
+ 1461  tmux ls
+ 1462  ls
+ 1463  cd phoebus
+ 1464  ls
+ 1465  git branch -v
+ 1466  git status .
+ 1467  cd ../
+ 1468  ls
+ 1469  cd phoebus_han/
+ 1470  ls
+ 1471  git brach -v
+ 1472  git branch -v
+ 1473  git branch -a
+ 1474  git pull
+ 1475  cd ../
+ 1476  ls
+ 1477  git clone https://github.com/jeonghanlee/phoebus.git phoebus_alsu
+ 1478  cd phoebus
+ 1479  cd ..
+ 1480  cd phoebus_alsu/
+ 1481  ls
+ 1482  cd services/alarm-server/
+ 1483  ls
+ 1484  cd src/
+ 1485  ls
+ 1486  cd main/java/
+ 1487  ls
+ 1488  cd org/phoebus/applications/alarm/
+ 1489  ls
+ 1490  tmux new -s phoebus_alsu
+ 1491  cd
+ 1492  ls
+ 1493  vi .tmux.conf
+ 1494  cd .tmux/
+ 1495  ls
+ 1496  cd plugins/
+ 1497  ls
+ 1498  cd ../../
+ 1499  ls
+ 1500  vi .tmux.conf
+ 1501  tmux
+ 1502  ls
+ 1503  cd .config/
+ 1504  ls
+ 1505  cd ../
+ 1506  ls
+ 1507  vi .tmux.conf
+ 1508  tmux
+ 1509  vi .tmux.conf
+ 1510  tmux
+ 1511  vi .tmux.conf
+ 1512  tmux
+ 1513  ls
+ 1514  ls .tmux.conf.local 
+ 1515  vi .tmux.conf.local 
+ 1516  tmux
+ 1517  mv .tmux.conf.local tmux.conf.local
+ 1518  tmux
+ 1519  mv .tmux.conf tmux.conf
+ 1520  tmux
+ 1521  ls
+ 1522  cd .tmux/
+ 1523  ls
+ 1524  ls -al
+ 1525  cd plugins/
+ 1526  ls
+ 1527  ls -al
+ 1528  cd ../../
+ 1529  ls
+ 1530  cd .config/
+ 1531  ls
+ 1532  ls -al
+ 1533  ls
+ 1534  cd
+ 1535  ls
+ 1536  tmux
+ 1537  tmux ls
+ 1538  tmux attach -t phoebus_alsu/
+ 1539  tmux attach -t phoebus_alsu
+ 1540  tmux ls
+ 1541  tmux
+ 1542  ls
+ 1543  mv tmux.conf .tmux.conf
+ 1544  mv tmux.conf.local .tmux.conf.local
+ 1545  ls
+ 1546  tmux
+ 1547  vi .tmux.conf
+ 1548  tmux
+ 1549  ls
+ 1550  vi .tmux.conf
+ 1551  tmux
+ 1552  ls
+ 1553  cp .tmux.conf ~/GitHub/Work/siteApps/tmux/tmux.conf
+ 1554  cd GitHub/Work/siteApps/tmux/
+ 1555  ls
+ 1556  git status .
+ 1557  git diff tmux.conf
+ 1558  ls
+ 1559  diff tmux.conf tmux_new.conf 
+ 1560  ls
+ 1561  git restore tmux.conf 
+ 1562  git status .
+ 1563  cp ~/.tmux.conf tmux_new.conf 
+ 1564  git status .
+ 1565  git diff tmux_new.conf
+ 1566  git add .
+ 1567  git commit -m "tmux border-color"
+ 1568  catgittoken 
+ 1569  git push
+ 1570  git pull
+ 1571  git push
+ 1572  cd
+ 1573  ls
+ 1574  cd phoebus_alsu/
+ 1575  ls
+ 1576  tmux ls
+ 1577  tmux new -s phoebus-alsu
+ 1578  tmux new -s pvaccess
+ 1579  tmux attach -t pvaccess
+ 1580  ls
+ 1581  . goto
+ 1582  ls
+ 1583  . goto
+ 1584  ls
+ 1585  cd ../
+ 1586  ls
+ 1587  vi setEpicsEnv.sh 
+ 1588  . goto
+ 1589  ls
+ 1590  vi setEpicsEnv.bash 
+ 1591  . goto
+ 1592  . ~/.bashrc 
+ 1593  vi ~/.bashrc 
+ 1594  . goto
+ 1595  ls
+ 1596  . setEpicsEnv.bash 
+ 1597  vi setEpicsEnv.bash 
+ 1598  . goto
+ 1599  . setEpicsEnv.bash 
+ 1600  vi setEpicsEnv.bash 
+ 1601  ls
+ 1602  vi setEpicsEnv.bash 
+ 1603  ls
+ 1604  . goto
+ 1605  cd
+ 1606  ls
+ 1607  source .bashrc 
+ 1608  . goto
+ 1609  exit
+ 1610  ls
+ 1611  . goto
+ 1612  ls
+ 1613  . setEpicsEnv.bash 
+ 1614  exit
+ 1615  tmux ls
+ 1616  tmux attach -t pvaccess
+ 1617  cd GitHub/Work/
+ 1618  ls
+ 1619  cd vim
+ 1620  ls
+ 1621  vi tmux.conf
+ 1622  ls
+ 1623  cd ../
+ 1624  ls
+ 1625  cd siteApps/
+ 1626  cd tmux/
+ 1627  ls
+ 1628  vi tmux.conf
+ 1629  vi aa
+ 1630  cd
+ 1631  ls
+ 1632  cd epics
+ 1633  ls
+ 1634  cd 7.0.8/
+ 1635  ls
+ 1636  cd extensions/
+ 1637  ls
+ 1638  cd bin/
+ 1639  ls
+ 1640  cd linux-x86_64/
+ 1641  ls
+ 1642  vi vdct 
+ 1643  cd
+ 1644  ls
+ 1645  cd GitHub/
+ 1646  ls
+ 1647  git clone https://github.com/epics-extensions/VisualDCT.git
+ 1648  ls
+ 1649  cd VisualDCT/
+ 1650  ls
+ 1651  mvn clean install -DskipTests
+ 1652  java -version
+ 1653  cd 
+ 1654  vi .bashrc 
+ 1655  . .bashrc 
+ 1656  ls
+ 1657  cd GitHub/
+ 1658  ls
+ 1659  cd VisualDCT/
+ 1660  ls
+ 1661  mvn clean install -DskipTests
+ 1662  ls
+ 1663  cd target/
+ 1664  ls
+ 1665  cd ../../
+ 1666  ls
+ 1667  mv VisualDCT/ ../
+ 1668  ls
+ 1669  cd
+ 1670  ls
+ 1671  tmux ls
+ 1672  tmux attach -t pvaccess
+ 1673  . goto
+ 1674  ls
+ 1675  mkdir Local_IOC
+ 1676  ls
+ 1677  cd Local_IOC/
+ 1678  ls
+ 1679  . goto
+ 1680  ls
+ 1681  cd
+ 1682  ls
+ 1683  cd GitHub/
+ 1684  ls
+ 1685  cd Work/
+ 1686  ls
+ 1687  cd siteApps/
+ 1688  ls
+ 1689  cd phoebus
+ 1690  ls
+ 1691  cd phoebus-product/
+ 1692  ls
+ 1693  ./phoebus.sh 
+ 1694  cd phoebus
+ 1695  ls
+ 1696  cd example/
+ 1697  ls
+ 1698  cd Display\ Builder/
+ 1699  ls
+ 1700  grep -ri action *
+ 1701  ls
+ 1702  vi 05_actions.bob 
+ 1703  grep -ri pvs *
+ 1704  vi scripts/update_x.py 
+ 1705  grep -ri update_x.py *
+ 1706  grep -ri pvs[1] *
+ 1707  grep -ri "pvs[1]" *
+ 1708  grep -ri "pvs" *
+ 1709  vi 05_actions.bob 
+ 1710  cd phoebus
+ 1711  ls
+ 1712  cd phoebus-product/
+ 1713  ls
+ 1714  ./phoebus.sh 
+ 1715  tmux ls
+ 1716  tmux attach -t pvaccess
+ 1717  sl
+ 1718  ls
+ 1719  . goto
+ 1720  ls
+ 1721  cd TestIOC/
+ 1722  ls
+ 1723  cd iocBoot/io
+ 1724  cd iocBoot/
+ 1725  ls
+ 1726  cd exioc/
+ 1727  ls
+ 1728  ./st.cmd 
+ 1729  ps -ef | grep st.cmd
+ 1730  tmux ls
+ 1731  tmux phoebus-alsu
+ 1732  tmux attach -t phoebus-alsu
+ 1733  tmux attach -t pvaccess
+ 1734  ls
+ 1735  tmux new -s testioc
+ 1736  cd phoebus
+ 1737  ls
+ 1738  cd example/
+ 1739  ls
+ 1740  cd Display\ Builder/
+ 1741  ls
+ 1742  grep -ri ScriptUtil.findWidgetByName *
+ 1743  grep -ri widget *
+ 1744  grep -ri write *
+ 1745  vi sudoku/sudoku_solve.py
+ 1746  ls
+ 1747  vi controls_combo.bob 
+ 1748  ls
+ 1749  cd phoebus
+ 1750  ls
+ 1751  cd example/
+ 1752  ls
+ 1753  cd Display\ Builder/
+ 1754  ls
+ 1755  grep -ri scriptUtil *
+ 1756  cd script_util/
+ 1757  ls
+ 1758  vi full_PV_handling.bob 
+ 1759  cd ../
+ 1760  ls
+ 1761  grep -ri findWidgetByName *
+ 1762  vi 3D.bob 
+ 1763  cd phoebus
+ 1764  ls
+ 1765  cd phoebus-product/
+ 1766  ls
+ 1767  ./phoebus.sh 
+ 1768  exit
+ 1769  camonitor ctrluser:controlvalue
+ 1770  camonitor ctrluser:controlvalue ctrluser:ai2
+ 1771  cd phoebus
+ 1772  ls
+ 1773  cd phoebus-product/
+ 1774  ls
+ 1775  cd Test/
+ 1776  ls
+ 1777  vi TestDisplay.bob 
+ 1778  cd
+ 1779  cd GitHub/Work/
+ 1780  ls
+ 1781  cd siteApps/
+ 1782  ls
+ 1783  mkdir phoebus_script
+ 1784  ls
+ 1785  cd phoebus_script/
+ 1786  ls
+ 1787  cp ~/phoebus/phoebus-product/Test/TestDisplay.bob .
+ 1788  ls
+ 1789  cd ../../
+ 1790  ls
+ 1791  git status .
+ 1792  ls
+ 1793  git status .
+ 1794  cd siteApps/phoebus_script/
+ 1795  ls
+ 1796  git status .
+ 1797  ls
+ 1798  cd ../
+ 1799  git status .
+ 1800  git add phoebus_script/
+ 1801  git status .
+ 1802  git add .
+ 1803  git commit -m "embedded script example, action button, a few of pvs access"
+ 1804  git status .
+ 1805  cd EtherCat/
+ 1806  git status .
+ 1807  ls
+ 1808  cd ../
+ 1809  ls
+ 1810  cd EtherCat/
+ 1811  ls
+ 1812  cd ../
+ 1813  ls
+ 1814  cd EtherCat/
+ 1815  ls
+ 1816  cat Readme 
+ 1817  ls
+ 1818  cd ../
+ 1819  ls
+ 1820  rm -rf EtherCat/
+ 1821  ls
+ 1822  git status .
+ 1823  cd ../../
+ 1824  ls
+ 1825  mv Work/ Work.org
+ 1826  git clone https://github.com/Sangil-Lee/Work
+ 1827  ls
+ 1828  cd Work
+ 1829  ls
+ 1830  cd siteApps/
+ 1831  ls
+ 1832  git pull
+ 1833  cp -rf ../../Work.org/siteApps/phoebus_script/ .
+ 1834  ls
+ 1835  cd phoebus_script/
+ 1836  ls
+ 1837  cd ../
+ 1838  ls
+ 1839  git status .
+ 1840  git add phoebus_script/
+ 1841  git commit -m "phoebus embedded script, action_button, how access multiple pvs"
+ 1842  catgittoken 
+ 1843  git push
+ 1844  tmux ls
+ 1845  tmux attach -t testioc
+ 1846  cd phoebus
+ 1847  ls
+ 1848  cd example/
+ 1849  ls
+ 1850  cd Display\ Builder/
+ 1851  ls
+ 1852  grep -ri table *
+ 1853  vi pvaccess/cursor_info.py
+ 1854  ls
+ 1855  cd phoebus
+ 1856  ls
+ 1857  cd phoebus-product/
+ 1858  ls
+ 1859  cd Test/
+ 1860  ls
+ 1861  vi tablewidget.py
+ 1862  ls
+ 1863  cd phoebus
+ 1864  ls
+ 1865  cd example/
+ 1866  ls
+ 1867  cd Display\ Builder/
+ 1868  ls
+ 1869  grep -ri array *
+ 1870  vi image_server/colorsdemo.py
+ 1871  grep -ri array *
+ 1872  vi structure_array.bob 
+ 1873  vi table_server/ca_table.bob
+ 1874  ls
+ 1875  cd ../
+ 1876  ls
+ 1877  cd ../
+ 1878  ls
+ 1879  cd phoebus-product/
+ 1880  ls
+ 1881  ./phoebus.sh 
+ 1882  cd
+ 1883  ls
+ 1884  tmux ls
+ 1885  tmux attach -t testioc
+ 1886  ls
+ 1887  cd cs-studio/
+ 1888  ls
+ 1889  cd workspace/
+ 1890  ls
+ 1891  cd CSS/
+ 1892  ls
+ 1893  cd
+ 1894  cd cs-studio/
+ 1895  ls
+ 1896  cd phoebus
+ 1897  ls
+ 1898  cd phoebus-product/
+ 1899  l
+ 1900  ls
+ 1901  ./phoebus.sh 
+ 1902  ls
+ 1903  cd
+ 1904  ls
+ 1905  cd Downloads/
+ 1906  ls
+ 1907  cat a.csv 
+ 1908  cd ../
+ 1909  ls
+ 1910  cd phoebus
+ 1911  ls
+ 1912  cd example/
+ 1913  ls
+ 1914  cd Display\ Builder/
+ 1915  ls
+ 1916  grep -ri csv *
+ 1917  grep -ri read *
+ 1918  grep -ri read * | grep csv
+ 1919  cat ~/Downloads/a.csv 
+ 1920  cd phoebus
+ 1921  ls
+ 1922  cd example/
+ 1923  ls
+ 1924  cd Display\ Builder/
+ 1925  ls
+ 1926  grep -ri deletrow *
+ 1927  grep -ri deleterow *
+ 1928  grep -ri delete *
+ 1929  ls
+ 1930  tmux ls
+ 1931  tmux attach -t testioc
+ 1932  ls
+ 1933  cd phoebus/phoebus-product/
+ 1934  ls
+ 1935  cd Test/
+ 1936  ls
+ 1937  vi TestDisplay.bob 
+ 1938  cd phoebus
+ 1939  ls
+ 1940  cd example/
+ 1941  ls
+ 1942  cd Display\ Builder/
+ 1943  ls
+ 1944  grep -ri Table *
+ 1945  vi webservice/scripts/my_service.py 
+ 1946  vi plots_image_log.bob
+ 1947  grep -ri select *
+ 1948  cd pva
+ 1949  ls
+ 1950  cd pvaccess/
+ 1951  ls
+ 1952  grep -ri select *
+ 1953  ls
+ 1954  cd ../
+ 1955  ls
+ 1956  grep -ri File *
+ 1957  cd
+ 1958  cd Downloads/
+ 1959  ls
+ 1960  touch data
+ 1961  ls
+ 1962  vi data 
+ 1963  mv data data.csv
+ 1964  ls
+ 1965  cat data.csv 
+ 1966  cat b.csv 
+ 1967  cat c.csv 
+ 1968  cd
+ 1969  cd phoebus
+ 1970  ls
+ 1971  cd phoebus-product/
+ 1972  ls
+ 1973  cd Test/
+ 1974  ls
+ 1975  vi tablewidget.py 
+ 1976  ls
+ 1977  vi TestDisplay.bob 
+ 1978  cat ~/tmp
+ 1979  cp TestDisplay.bob /home/ctrluser/GitHub/Work/siteApps/phoebus_script
+ 1980  cd phoebus
+ 1981  ls
+ 1982  cd
+ 1983  ls
+ 1984  cd phoebus
+ 1985  ls
+ 1986  cd phoebus-product/
+ 1987  ls
+ 1988  cd Test/
+ 1989  ls
+ 1990  cd
+ 1991  ls
+ 1992  cd Downloads/
+ 1993  ls
+ 1994  cat f.csv 
+ 1995  cd phoebus/phoebus-product/
+ 1996  ls
+ 1997  ./phoebus.sh 
+ 1998  tmux ls
+ 1999  tmux attach -t testioc
+ 2000  tmux ls
+ 2001  tmux attach pvaccess
+ 2002  tmux attach -t pvaccess
+ 2003  ls
+ 2004  cd bin
+ 2005  ls
+ 2006  history > history.txt
