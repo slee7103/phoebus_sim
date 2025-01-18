@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kill -SIGKILL $(cat $HOME/bin/alarmservices.pid)
+kill -SIGKILL $(cat $HOME/phoebus/bin/alarmservices.pid)
